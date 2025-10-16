@@ -24,4 +24,6 @@ recall = recall_score(y_true, y_pred)
 print("Precision:", precision)
 print("Recall:", recall)
 # Precision: 1.0
-# Recall: 0.8333333333333334
+# Recall: 0.8333333333333334  
+# Precision → Of all the "Yes" predictions, how many were correct?
+# Recall → Of all the actual "Yes" cases, how many did we catch?
