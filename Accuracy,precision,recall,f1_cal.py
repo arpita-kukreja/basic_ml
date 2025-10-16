@@ -27,3 +27,8 @@ print("Recall:", recall)
 # Recall: 0.8333333333333334  
 # Precision → Of all the "Yes" predictions, how many were correct?
 # Recall → Of all the actual "Yes" cases, how many did we catch?
+
+f1 = f1_score(y_true, y_pred)
+print("F1-score:", f1)
+# F1-score: 0.9090909090909091  This means the model is both precise (few false alarms) and fairly good at recall (found most positives).
+# Harmonic mean of precision and recall 2*p*r/(p+r)
